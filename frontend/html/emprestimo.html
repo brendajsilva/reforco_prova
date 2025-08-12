@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../js/emprestimo.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./aluno.html">Aluno</a>
+            <a href="./emprestimo.html">Emprestimo</a>
+            <a href="./livro.html">Livro</a>
+        </nav>
+    </header>
+    <body>
+        <h1>Sistema de Emprestimo</h1>
+        <div>
+            <h2>cadastrar</h2>
+            <label for="">Cod Aluno</label>
+            <input type="text" id="codAluno1"><br>
+            <label for="">Cod Livro</label>
+            <input type="text" id="codLivro1"><br>
+            <label for="">Data de emprestimo</label>
+            <input type="date" id="date1"><br>
+            <button id="cad">Cadastrar</button>
+            <div id="res"></div>
+        </div>
+        <div>
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Cod Aluno</th>
+                        <th>Cod Livro</th>
+                        <th>Data de emprestimo</th>
+                    </tr>
+                </thead>
+            </table>
+            <button id="list">Listar</button>
+        </div>
+        <div>
+            <h2>Apagar</h2>
+            <label for="">id</label>
+            <input type="text" id="id1"><br>
+            <button id="apagar">Apagar</button>
+            <div id="res2"></div>
+        </div>
+        <div>
+            <h2>Atualizar</h2>
+            <label for="">id</label>
+            <input type="text" id="id2"><br>
+            <label for="">Cod Aluno</label>
+            <input type="text" id="codAluno2"><br>
+            <label for="">Cod Livro</label>
+            <input type="text" id="codLivro2"><br>
+            <label for="">Data de emprestimo</label>
+            <input type="date" id="date2"><br>
+            <button id="atualizar">Atualizar</button>
+            <div id="res3"></div>
+        </div>
+    </body>
+</body>
+</html>
